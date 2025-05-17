@@ -1,0 +1,97 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Branco acinzentado */
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #f0c808; /* Amarelo */
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 0 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Conteúdo principal */
+main {
+    padding: 20px;
+    background-color: #f7f7f7; /* Branco acinzentado */
+}
+
+/* Seção "Mensagens dos Clientes" */
+section#messages {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #fff; /* Fundo branco */
+    border: 2px solid #008037; /* Borda verde */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section#messages h2 {
+    color: #008037; /* Verde */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#registeredMessages ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#registeredMessages li {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0c808; /* Amarelo */
+    color: #333;
+}
+
+#registeredMessages li span {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#registeredMessages li p {
+    margin: 0;
+}
+
+/* Rodapé */
+footer {
+    background-color: #f0c808; /* Amarelo */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
